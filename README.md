@@ -92,3 +92,17 @@ This project was completed as an **authorized cybersecurity training exercise**.
 * Attack Timeline Reconstruction
 * Threat Detection
 * Incident Documentation
+
+## Investigation Evidence
+
+### Web Access Evidence
+
+The web-access investigation was used to identify the attacker's source IP, automated tool, repeated login attempts, and successful access to the login endpoint.
+
+![Web Access Evidence](01-web-access-evidence.jpg)
+
+### Windows Authentication Evidence
+
+Windows authentication evidence was analyzed to trace the compromised service account and the attacker's movement from the web server to the transaction server.
+
+![Windows Authentication Evidence](02-windows-authentication-evidence.jpg)
