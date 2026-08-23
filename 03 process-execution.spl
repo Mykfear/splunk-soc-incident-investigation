@@ -1,0 +1,3 @@
+index=banking_soc sourcetype=windows_auth_training EventCode=4688
+| table_time, AccountName, NewProcessName, CommandLine, HostName
+| sort_time
