@@ -1,0 +1,4 @@
+index=banking_soc sourcetype=access_combined
+| search uri="/login" OR useragent=sqlmap
+| table _time, src_ip, method, status, uri, useragent
+| sort _time
