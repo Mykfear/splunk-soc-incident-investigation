@@ -1,0 +1,4 @@
+index=banking_soc sourcetype=banking_transaction
+| where like(InitiatedBy,"svc_%")
+| table_time, TxnID, FromAccount, ToAccount, Amount, InitiatedBy
+| sort_time
