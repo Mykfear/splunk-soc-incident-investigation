@@ -1,4 +1,9 @@
 # SOC Incident Investigation & Incident Response
+## Splunk Queries
+
+The Splunk queries used during the investigation are available in the `queries` folder.
+
+**[View Investigation Queries](queries/)**
 
 ## Project Overview
 
@@ -72,7 +77,7 @@ The investigation recommended:
 
 The complete investigation report is available here:
 
-**[SOC Incident Investigation Report](SOC-Incident-Investigation-Report.pdf)**
+**[SOC Incident Investigation Report](reports/SOC-Incident-Investigation-Report.pdf)**
 
 ## Disclaimer
 
@@ -99,10 +104,9 @@ This project was completed as an **authorized cybersecurity training exercise**.
 
 The web-access investigation was used to identify the attacker's source IP, automated tool, repeated login attempts, and successful access to the login endpoint.
 
-![Web Access Evidence](01-web-access-evidence.jpg)
-
+**![Web Access Evidence](evidence/01-web-access-evidence.jpg)**
 ### Windows Authentication Evidence
 
 Windows authentication evidence was analyzed to trace the compromised service account and the attacker's movement from the web server to the transaction server.
 
-![Windows Authentication Evidence](02-windows-authentication-evidence.jpg)
+**![Web Access Evidence](evidence/02-windows-authentication-evidence.jpg)**
